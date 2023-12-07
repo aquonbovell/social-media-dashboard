@@ -21,8 +21,6 @@
   --fs-900: clamp(2.61rem, calc(0.5rem + 10.54vw), 9.99rem);
 }
 
-
-
 *,
 *::before,
 *::after {
@@ -350,6 +348,22 @@ input[type="checkbox"].toggle:checked + * label > .slider {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+}
+
+.attribution {
+  color: var(--clr-body-text);
+}
+.attribution > a {
+  text-decoration: none;
+  color: hsl(0, 96%, 71%);
+}
+
+.attribution > a:hover {
+  text-decoration: underline;
+}
+
+.attribution .name{
+  color: hsl(251, 96%, 71%);
 }
 
 /* media queiry */
